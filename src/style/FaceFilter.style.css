@@ -1,0 +1,66 @@
+#facef-sdk-wrapper {
+  z-index: -1;
+  min-width: 100%;
+  width: auto;
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#facef-video {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  object-fit: cover;
+
+}
+
+#facef-canvas {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  object-fit: cover;
+}
+
+#progress-bar[value] {
+  position: fixed;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 40%;
+  text-align: center;
+  width: 30%;
+  height: 2em;
+  -webkit-appearance: none;
+}
+
+.videosource {
+  display: none;
+}
+
+.loadingMessage{
+  position: fixed;
+  width: 6em;
+  height: 2.5em;
+  margin: auto;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  top: 15%;
+  padding: .75em;
+  border-radius: 1.5em;
+  opacity: 80%;
+  background: rgba(255, 255, 255, 0.39);
+  font-size: 1em;
+  text-align: center;
+}
+
+.loadingMessage p {
+padding:0em;
+margin:0em;
+}

@@ -1,0 +1,38 @@
+.productMenu {
+  width:100%;
+  background-color:rgba(255, 255, 255, 0.7);
+  text-align:center;
+  height:3.25em;
+  position:fixed;
+  margin-top:3em;
+  padding-top:1em;
+  z-index:10;
+}
+
+.productMenu .productMenuItem {
+padding:1em;
+margin-left:1em;
+margin-right:1em;
+text-transform: lowercase;
+}
+
+.productVariants{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 200px;
+  align-content: center;
+  justify-content: center;
+}
+.productVariants img{
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  margin: 6px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.productVariants img:hover{
+transform: scale(1.2);
+}
